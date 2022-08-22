@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-photos.component.css']
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = 'Some of my fave pics here!';
+  image1 = 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f5d48c6-a363-49eb-bd1b-704273adfa5c/dbjgqhe-152c6523-d004-44a2-ad85-8f3429940922.jpg/v1/fill/w_1024,h_656,q_75,strp/meditation_by_stillcenter_dbjgqhe-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU2IiwicGF0aCI6IlwvZlwvMmY1ZDQ4YzYtYTM2My00OWViLWJkMWItNzA0MjczYWRmYTVjXC9kYmpncWhlLTE1MmM2NTIzLWQwMDQtNDRhMi1hZDg1LThmMzQyOTk0MDkyMi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.rk0fuuUJL_5hUrxEI0sepMLBObpudybmGqGnxhun478';
+  image2 = 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f5d48c6-a363-49eb-bd1b-704273adfa5c/d21026f-094c5b4c-ddef-463a-99bd-b63f5252245d.jpg/v1/fill/w_1088,h_735,q_70,strp/entrance_to_walled_garden_by_stillcenter_d21026f-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIyOCIsInBhdGgiOiJcL2ZcLzJmNWQ0OGM2LWEzNjMtNDllYi1iZDFiLTcwNDI3M2FkZmE1Y1wvZDIxMDI2Zi0wOTRjNWI0Yy1kZGVmLTQ2M2EtOTliZC1iNjNmNTI1MjI0NWQuanBnIiwid2lkdGgiOiI8PTE4MTgifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.np1R7fbh_t6nVakHULtuFyiJJgk8c18U5RGMvG5BoOk';
+  image3 = 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f5d48c6-a363-49eb-bd1b-704273adfa5c/dbjgpug-eac4b3e2-d8f0-4a1a-bc51-a5868a085b15.jpg/v1/fill/w_1024,h_768,q_75,strp/la_jolla_sunset_by_stillcenter_dbjgpug-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvMmY1ZDQ4YzYtYTM2My00OWViLWJkMWItNzA0MjczYWRmYTVjXC9kYmpncHVnLWVhYzRiM2UyLWQ4ZjAtNGExYS1iYzUxLWE1ODY4YTA4NWIxNS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.R4hd9z8CdN57Mp23d62I-k2f31tUOKnZTppD_d2Dld4';
 
   constructor() { }
 
