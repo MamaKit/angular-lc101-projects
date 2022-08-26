@@ -16,3 +16,13 @@ img {
     display: block;
     margin: auto;
 }
+
+#harder {
+    color: red;
+}
+
+#target {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
